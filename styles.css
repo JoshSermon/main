@@ -6,8 +6,8 @@ html{
 
 /*Variables*/
 :root{
-    --background-color: linear-gradient(120deg, #37393b, #2e3032);
-    --light-font-color: #b9bbc2;
+    --background-color: linear-gradient(0deg, #fff, #01365D);
+    --light-font-color: #fff;
     --shadow-normal:
             7px 5px 10px #2b2d2f,
             -7px -5px 10px #3b3d3f;
@@ -29,11 +29,13 @@ a{
 }
 
 a:hover{
-        color: #F6B89E !important;
+        color: #01365D !important;
 }
 
 p{
         font-weight: 300;
+        color: #fff;
+        font-size: 25px;
 }
 
 /*Header*/
@@ -63,7 +65,6 @@ header{
 .nav-brand span{
         color: #F6B89E;
         font-weight: 400;
-        transition: color .5s ease-in-out;
 }
 
 a.nav-brand:hover span{
@@ -104,7 +105,6 @@ a.nav-brand:hover span{
 .nav-link{
         letter-spacing: 2px;
         padding: 10px 20px;
-        box-shadow: var(--shadow-normal);
         border-radius: 20px;
 }
 
@@ -126,8 +126,9 @@ a.nav-brand:hover span{
 }
 
 .main-heading{
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 25px;
+        color: #fff;
 }
 
 img{
